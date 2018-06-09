@@ -8,6 +8,15 @@ Requirements
 In order to build st you need the Xlib header files.
 
 
+Customizations
+--------------
+
+This version has been altered from vanilla:
+- *Liberation Font* has been replaced with *Source Code Pro*
+- Color Palette changed to [Atom One Dark](https://github.com/atom/one-dark-ui)
+- A few [patches](https://st.suckless.org/patches ) have been applied:
+  [clipboard](https://st.suckless.org/patches/clipboard/), [scrollback](https://st.suckless.org/patches/scrollback/)
+
 Installation
 ------------
 Edit config.mk to match your local setup (st is installed into
